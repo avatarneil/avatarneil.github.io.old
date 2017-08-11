@@ -29,6 +29,8 @@ body{
 }
 
 #sidebar{
-    position:relative;
+    top:1%;
+    left:-15%;
+    position:absolute;
     color:white;
 }
