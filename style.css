@@ -1,36 +1,53 @@
-body{
+body {
     font-family: 'Roboto', sans-serif;
 }
 
-#particles-js{
-    background:#332933;
-    position:fixed;
-    top:0;
-    right:0;
-    bottom:0;
-    left:0;
-    z-index:0;
+#particles-js {
+    background: #332933;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 0;
 }
 
-#welcome{
-    padding:1px 0px;
-    border-radius:5px;
-    text-align:center;
-    position:relative;
-    background-color:rgba(0,0,0,.2);
+#welcome {
+    padding: 1px 0px;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    background-color: rgba(0, 0, 0, .2);
     width: 35%;
     margin-left: auto;
     margin-right: auto;
-    color:white;
+    color: white;
 }
 
-#ng-logo{
-    width:40%;
+#ng-logo {
+    width: 40%;
 }
 
-#sidebar{
-    top:1%;
-    left:-15%;
-    position:absolute;
-    color:white;
+#navbar {
+    margin-top: 30%;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;
+    background-color: rgba(0, 0, 0, .2);
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+}
+
+ul {
+    padding: 0;
+    margin: 0;
+    list-style: 0;
+    text-align: center;
+}
+
+ul li {
+    display: inline-block;
+    padding: 0 10px;
 }
