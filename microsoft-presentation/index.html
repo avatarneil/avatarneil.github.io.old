@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Title</title>
+  <meta charset="utf-8">
+  <style>
+    @import url(https://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+    @import url(https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+    @import url(https://fonts.googleapis.com/css?family=Ubuntu+Mono:400,700,400italic);
+
+    body {
+      font-family: 'Droid Serif';
+    }
+
+    h1,
+    h2,
+    h3 {
+      font-family: 'Yanone Kaffeesatz';
+      font-weight: normal;
+    }
+
+    .remark-code,
+    .remark-inline-code {
+      font-family: 'Ubuntu Mono';
+    }
+  </style>
+</head>
+
+<body>
+  <textarea id="source">
+
+class: center, middle
+
+# Charles Neil Goldader
+## Software Engineer, Designer, Student
+
+---
+
+# Agenda
+
+1. Introduction
+2. High School Experience
+3. Prior Work Experience
+4. Hackathons
+5. Personal Projects
+
+---
+
+# Introduction
+## Who am I, and why should you want to work with me?
+
+* First name Charles, middle name Neil.
+ * I go by Neil
+* I graduated from Friends' Central School in 2017
+* Interned at Gravic as a SWE for some of the spring and the summer of 2017
+* Attended UMass Boston for a year
+ * Spring semester I also worked at Zipcar in Boston as a co-op full time
+ * PSA: Working 40hrs a week as a SWE and trying to be enrolled in school full time is a **bad idea**
+* Worked at Zipcar in San Mateo as a Firmware Engineering Intern
+* Transferred to Boston University and continued working at Zipcar as a contractor(ish) part time
+
+---
+
+# High School Experience
+## What started it all...
+
+* Participated in tons of clubs/orgs
+ * Was in the school's Makerspace for hours each day
+ * Stage Crew Captain
+ * Senior Math Modeling Member
+ * Middle & High School "Computer Science" tutor
+
+---
+# High School Experience
+## Makerspace
+<img src= "https://makered.org/wp-content/uploads/2016/02/WillVinylCutter.jpg" width="70%"/>
+
+---
+# High School Experience
+## Stage Crew
+<img src="https://scontent.fzty2-1.fna.fbcdn.net/v/t31.0-8/17017058_629881577198354_8616324176550545797_o.jpg?_nc_cat=110&_nc_ht=scontent.fzty2-1.fna&oh=8a14e493e57fa2d98c3c0b5dee30cfbb&oe=5CA495D8" width="70%" />
+
+---
+# High School Experience
+## Math Modeling
+<img src="https://www.friendscentral.org/uploaded/News/Images/2016-2017_News_Images/US_Math_Modeling_Club-COMAP-Finalists-websm.jpg" width="50%"/>
+INSERT PDF!
+
+---
+# Prior Work Experience
+* Tutoring/Camp Counselor
+* Gravic Inc. -- Spring/Summer 2017 -- SWE Intern
+* Zipcar -- Spring 2018 - Present -- QA Engineering Co-op -> Firmware Engineering Intern -> ?
+
+---
+# Prior Work Experience
+## Tutoring/Camp Counselor
+
+---
+# Prior Work Experience
+## Gravic Inc.
+
+* Hired as part of my high school Senior Project
+* Was tasked with finishing a GUI front-end using C# for configuring Oracle Databases
+ * Sounds super cool, I know!
+* Finished way too early, work was not scoped well
+* Was put in the experimental position of re-writing the entire program as a web app and wrapping it in Electron!
+* Hired as an intern for the summer, finished the full re-write with lots of pretty animations
+* Unfortunately I can't show any of it :'(
+
+---
+# Prior Work Experience
+## Zipcar Inc. 
+* Was hired as a QA Engineering Co-op for Spring 2018
+* Part of the Telematics team
+ * _Cough_ Sorry, what's Telematics?
+ * You know how for some cars report telemetry data to a server (On-Star, Tesla, etc)? Or how when you tap on a Zipcar it *magically* knows to open itself for you? That's Telematics!
+* For about 5 months, my primary job was...
+ * Running Regression Tests
+ * Monitoring test vehicles and paid-beta vehicles in Boston and Providence markets
+ * Monitoring test releases
+ * Assigning tickets on JIRA. So... so many tickets
+
+---
+# Prior Work Experience
+## Zipcar (Continued?!)
+* Before the end of my 6 month co-op, was offered an internship in California writing the firmware I'd spent months breaking!
+* Packed my bags, flew over, and immediately started working on writing an emulator for our firmware so we wouldn't need to buy excessive black-boxes for testing.
+* Finished the project, at the end we discovered it wasn't financially feasible (who knew emulating cycle correct processors is super inefficient?)
+* Started working on the production firmware used in Zipcars, as part of a replatforming movement.
+* Am now the primary maintainer of the firmware used in the majority of the Zipcar fleet
+* Fun stuff I've done at work recently
+ * Rewrote log compression/uploading
+ * Worked on lots of bugfixes
+ * Worked directly with product to groom tickets for new features
+ * Provided 24/7 support for our coast to coast testing fleet
+ * Aided in development of our next-gen hardware/firmware
+---
+# Hackathons
+## HackHarvard 2018
+* Developed Surround as part of a team of 3
+ * Surround was an iOS application that queried HealthKit data to determine the user's "sleep state"
+ * Emitted IFTTT triggers to enable IOT interaction based upon sleep
+ * Turn on your security system
+ * Set lights to red hue so you don't burn your eyes when you wake up for midnight snacks
+ * And it's all automatic!
+* I did almost all of the iOS development and integration for our app in Swift, a language I'd never touched before
+* Unfortunately, we didn't place, but it was a great learning experience!
+---
+# Hackathons
+## BostonHacks 2018
+* Developed Coffee-Bot as part of a team of 5
+ * Purpose: Internet enabled coffee for the masses
+ * IOT Coffee machines are expensive! We designed a platform that could feasibly be built for ~$35. 
+ * You could set an alarm via the web-app to brew your coffee 10 mins before it goes off, mmm fresh coffee...
+ * You could call/text your coffee machine using Twilio API integration, and have it immediately brew you a pot!
+* I worked in Ruby, Python, C, and with lots of wires/servos for this project. My primary job was system's integration.
+* We won best IOT Qualcomm Hack @ BostonHacks! Woot!
+
+---
+# Personal Projects
+## Currently Public
+* Open-sourced multiple libraries on the Zipcar Github for exposing PIC emulated chips to external peripherals using IPC!
+* Worked on multiple Hardware Abstraction Layer Crates in Rust
+ * LPC177x_8x, handful of STM32's
+ * Currently implementing Flash traits
+* Dashing-Caltrain -- A widget for the Dashing Dashboard framework to display Caltrain arrival/departure times
+* Surround and Coffee-bot
+* Lots of other tiny projects on my github... github.com/avatarneil
+
+---
+# Personal Projects
+## Coming soon...
+* Ocean, a totally cross-platform package manager for installing binaries. Windows, Linux, MacOS; you name it, we've got it.
+ * Written entirely in Rust
+ * Planned UI (nothing yet, but we're working on it!)
+ * v0.0.1 ETA Q1 2019
+ * Will be open source once the team decides on a license
+    </textarea>
+  <script src="https://remarkjs.com/downloads/remark-latest.min.js">
+  </script>
+  <script>
+    var slideshow = remark.create();
+  </script>
+</body>
+
+</html>
